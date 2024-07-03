@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-coroutines-essentials
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/userdb
+    username: admin
+    password: senha123
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/userdb
+    username: admin
+    password: senha123
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
